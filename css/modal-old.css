@@ -47,10 +47,11 @@
   pointer-events: auto;
 }
 
+/* ---------- Модальне вікно ---------- */
 .modal {
   position: relative;
   width: 100%;
-  max-width: 288px;
+  max-width: 408px;
   max-height: 100%;
   overflow-y: auto;
   padding: 72px 16px 24px;
@@ -283,7 +284,6 @@
 }
 @media screen and (min-width: 768px) {
   .modal {
-    max-width: 408px;
     padding: 72px 24px 24px;
   }
 }
